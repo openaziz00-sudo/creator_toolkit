@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Creator Toolkit</title>
+  <meta name="description" content="A local command-line toolkit for TikTok, YouTube, and Instagram analytics, scheduling, and publishing.">
+  <link rel="icon" href="assets/icon.svg">
+  <style>
+    :root{--bg:#0b1020;--card:#121a2d;--text:#f5f7ff;--muted:#aab5d0;--accent:#25f4ee;--pink:#fe2c55}*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#0b1020,#15102a);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif}main{max-width:980px;margin:auto;padding:56px 22px 72px}.hero{display:flex;gap:24px;align-items:center}.logo{width:96px;height:96px}.eyebrow{color:var(--accent);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem}h1{font-size:clamp(2.4rem,7vw,5rem);line-height:1;margin:.25rem 0 1rem}h2{margin-top:0}p{color:var(--muted)}.lead{font-size:1.2rem;max-width:720px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:36px 0}.card{background:rgba(18,26,45,.9);border:1px solid #263452;border-radius:16px;padding:22px}.card strong{color:var(--text)}code{color:#d7dcff;background:#202944;padding:2px 6px;border-radius:5px}a{color:var(--accent)}.links{display:flex;gap:18px;flex-wrap:wrap;margin-top:26px}.button{display:inline-block;padding:11px 17px;border-radius:999px;background:var(--pink);color:white;text-decoration:none;font-weight:700}.button.alt{background:transparent;border:1px solid #405071}.footer{border-top:1px solid #263452;margin-top:44px;padding-top:20px;font-size:.9rem}</style>
+</head>
+<body><main>
+  <section class="hero"><img class="logo" src="assets/icon.svg" alt="Creator Toolkit icon"><div><div class="eyebrow">Creator operations</div><h1>Creator Toolkit</h1><p class="lead">Manage TikTok, YouTube, and Instagram content, analytics, scheduling, and publishing from one command-line toolkit.</p></div></section>
+  <div class="links"><a class="button" href="https://github.com/openaziz00-sudo/creator_toolkit">View source on GitHub</a><a class="button alt" href="demo.html">View integration demo</a></div>
+  <section class="grid"><article class="card"><h2>Analytics</h2><p>Sync creator performance data and generate growth reports from official platform APIs.</p></article><article class="card"><h2>Scheduling</h2><p>Queue content for cross-platform publishing with retries for failed destinations.</p></article><article class="card"><h2>Local-first</h2><p>Credentials and SQLite data stay on the user's device. Secrets are never committed to the repository.</p></article></section>
+  <section class="card"><h2>Getting started</h2><p>Clone the repository, install the requirements, copy <code>.env.example</code> to <code>.env</code>, and configure the official platform credentials.</p><pre><code>git clone https://github.com/openaziz00-sudo/creator_toolkit
+cd creator_toolkit
+pip install -r requirements.txt
+cp .env.example .env</code></pre></section>
+  <div class="footer"><a href="terms.html">Terms of Service</a> · <a href="privacy.html">Privacy Policy</a><br>Creator Toolkit is an independent developer tool and is not affiliated with TikTok, YouTube, or Instagram.</div>
+</main></body></html>

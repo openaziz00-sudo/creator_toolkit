@@ -63,3 +63,14 @@ python -m toolkit run            # اتركه يعمل، أو: */5 * * * * pytho
 
 ## أين تُحفظ البيانات؟
 في `~/.creator_toolkit/` (قاعدة SQLite + التوكنات بصلاحية 600). لا تشارك هذا المجلد ولا ملف `.env`.
+
+## Public app pages
+
+GitHub Pages is enabled for this repository:
+
+- Landing page: https://openaziz00-sudo.github.io/creator_toolkit/
+- Terms of Service: https://openaziz00-sudo.github.io/creator_toolkit/terms.html
+- Privacy Policy: https://openaziz00-sudo.github.io/creator_toolkit/privacy.html
+- Integration demo: https://openaziz00-sudo.github.io/creator_toolkit/demo.html
+
+The repository also includes `assets/icon.png` (1024×1024) for developer-portal app registration and `demo.mp4` as a clearly labelled development preview. Before submitting a production review, replace the preview with a recording of the actual TikTok sandbox flow and select only products/scopes demonstrated in that recording.
